@@ -1,4 +1,3 @@
-//test1
 import BuilderLayout from "./builderLayout";
 
 import { DndProvider } from "react-dnd";
