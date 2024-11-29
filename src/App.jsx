@@ -1,4 +1,6 @@
 import BuilderLayout from "./components/BuilderLayout";
+import Login from "./components/Login"
+
 
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
@@ -6,14 +8,14 @@ import { HTML5Backend } from "react-dnd-html5-backend";
 
 function App() {
   return (
-    <div>
-      <DndProvider backend={HTML5Backend}>
+    <DndProvider backend={HTML5Backend}>
+    <div>  
       <main>    
-        <BuilderLayout />    
+        <Login />
       </main>
-      </DndProvider>
     </div>
+    </DndProvider>
   );
 }
 
-export default App;
+export default Login;
